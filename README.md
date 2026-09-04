@@ -2,6 +2,11 @@
 
 A 2D top-down snowplow/city-management simulation game written in **Java (Swing)**, built around a clean **MVC architecture** and several classic **object-oriented design patterns** (Strategy, Observer, Role-based behaviour). Two players cooperate/compete to keep a road network clear of snow and ice while running bus routes, earning money, and upgrading their equipment in an in-game store.
 
+## Documentation
+
+- 📄 [Full weekly team documentation](https://github.com/czdotL/Snowplows/blob/main/o%CC%88sszesitett_merged.pdf) — detailed, week-by-week write-up of the team's design decisions, sprint progress, and iteration history across the skeleton → prototype → graphical stages.
+- 📄 [Project documentation (summary)](https://github.com/czdotL/Snowplows/blob/main/Snowplow_Documentation.pdf) — condensed overview of the architecture, design patterns, and features.
+
 ## Gameplay
 
 - Control a **snowplow** or a **bus** on a procedurally laid out grid-based road network (roads, bridges, tunnels, intersections).
@@ -49,10 +54,6 @@ Key design patterns used:
 - `Vehicle` (`Snowplow`, `Bus`, `Car`) — shared movement/tick logic with per-type behaviour.
 - `Game` — central simulation clock (`tick()`), round management, collision detection, and win/lose state.
 
-## Documentation
-
-- 📄 [Full weekly team documentation](https://github.com/czdotL/Snowplows/blob/main/o%CC%88sszesitett_merged.pdf) — detailed, week-by-week write-up of the team's design decisions, sprint progress, and iteration history across the skeleton → prototype → graphical stages.
-- 📄 [Project documentation (summary)](https://github.com/czdotL/Snowplows/blob/main/Snowplow_Documentation.pdf) — condensed overview of the architecture, design patterns, and features.
 
 ## Requirements
 
