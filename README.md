@@ -49,6 +49,11 @@ Key design patterns used:
 - `Vehicle` (`Snowplow`, `Bus`, `Car`) — shared movement/tick logic with per-type behaviour.
 - `Game` — central simulation clock (`tick()`), round management, collision detection, and win/lose state.
 
+## Documentation
+
+- 📄 [Full weekly team documentation](https://github.com/czdotL/Snowplows/blob/main/o%CC%88sszesitett_merged.pdf) — detailed, week-by-week write-up of the team's design decisions, sprint progress, and iteration history across the skeleton → prototype → graphical stages.
+- 📄 [Project documentation (summary)](https://github.com/czdotL/Snowplows/blob/main/Snowplow_Documentation.pdf) — condensed overview of the architecture, design patterns, and features.
+
 ## Requirements
 
 - JDK 8 or newer
